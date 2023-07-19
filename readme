@@ -1,0 +1,37 @@
+# RestAPI
+
+Este proyecto es una aplicación web (REST API) desarrollada con Java y Spring Boot, utilizando MongoDB como motor de base de datos.
+
+## Requisitos
+
+Antes de comenzar, asegúrate de tener los siguientes requisitos instalados 
+
+- Java 8 o superior
+- Maven
+- MongoDB
+
+
+Esto iniciará el servidor de desarrollo en `http://localhost:8080`.
+
+## Uso
+
+La aplicación REST API proporciona endpoints para gestionar doctores, pacientes y citas.
+
+1.  accede a `http://localhost:8080`.
+
+2. En la página principal, encontrarás los siguientes listados:
+
+- Listado de Pacientes: Muestra la lista de todos los pacientes registrados. Puedes agregar nuevos pacientes utilizando el formulario correspondiente.
+
+- Listado de Doctores: Muestra la lista de todos los doctores registrados. Puedes agregar nuevos doctores utilizando el formulario correspondiente.
+
+- Listado de Citas: Muestra la lista de todas las citas registradas. Puedes agregar nuevas citas utilizando el formulario correspondiente.
+
+3. Para agregar un nuevo registro, sigue los siguientes pasos:
+
+- Haz clic en el formulario correspondiente (Pacientes, Doctores o Citas).
+- Completa los campos requeridos en el formulario.
+- Haz clic en el botón "Enviar" para guardar el registro en la base de datos.
+
+4. Los datos ingresados se guardarán en la base de datos MongoDB y se mostrarán en el listado 
+
